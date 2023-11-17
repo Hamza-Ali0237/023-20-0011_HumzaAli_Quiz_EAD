@@ -1,4 +1,4 @@
-import styles from "../assets/css/Header.module.css";
+import styles from "./Header.module.css";
 
 const Header = () => {
     return <div className={styles.groupChild} />;

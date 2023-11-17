@@ -1,4 +1,4 @@
-import styles from "../assets/css/ContactUs.module.css";
+import styles from "./ContactUs.module.css";
 const ContactUs = () => {
     return <div className={styles.bakerysStoreChild} />;
 };

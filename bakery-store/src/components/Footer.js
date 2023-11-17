@@ -1,4 +1,4 @@
-import styles from "../assets/css/Footer.module.css";
+import styles from "./Footer.module.css";
 
 const Footer = () => {
     return <div className={styles.bakerysStoreChild} />;
