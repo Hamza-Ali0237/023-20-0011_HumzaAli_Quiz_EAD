@@ -1,5 +1,8 @@
-import React from "react";
-import styles from "/Users/macbook/Documents/Enterprise Application Development/EAD_Quiz/023-20-0011_HumzaAli_Quiz_EAD/bakery-store/src/assets/css/BakerysStore.module.css";
+import AboutUs from "../components/AboutUs";
+import ContactUs from "../components/ContactUs";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import styles from "./BakerysStore.module.css";
 
 const BakerysStore = () => {
     return (
@@ -125,8 +128,8 @@ const BakerysStore = () => {
                 </div>
             </div>
             <div className={styles.rectangleParent5}>
-                <div className={styles.groupChild6} />
-                <img className={styles.image3Icon} alt="" src="/image-3@2x.png" />
+                <AboutUs />
+                <img className={styles.image3Icon} alt="" src="./image-3@2x.png" />
                 <div className={styles.atOurBakeryBakingIsntJuParent}>
                     <div className={styles.atOurBakeryContainer}>
                         <p
@@ -164,26 +167,26 @@ const BakerysStore = () => {
                     <b className={styles.aboutUs}>About Us</b>
                 </div>
             </div>
+            <ContactUs />
             <div className={styles.bakerysStoreInner} />
-            <div className={styles.bakerysStoreChild1} />
             <b className={styles.contactUs}>Contact Us</b>
-            <div className={styles.bakerysStoreChild2} />
+            <div className={styles.bakerysStoreChild1} />
             <b className={styles.fullName}>Full Name</b>
-            <div className={styles.bakerysStoreChild3} />
+            <div className={styles.bakerysStoreChild2} />
             <b className={styles.phone}>Phone</b>
-            <div className={styles.bakerysStoreChild4} />
+            <div className={styles.bakerysStoreChild3} />
             <b className={styles.address}>Address</b>
-            <div className={styles.bakerysStoreChild5} />
+            <div className={styles.bakerysStoreChild4} />
             <b className={styles.description}>Description</b>
-            <div className={styles.bakerysStoreChild6} />
+            <div className={styles.bakerysStoreChild5} />
             <b className={styles.email}>Email</b>
             <b className={styles.submit}>Submit</b>
-            <div className={styles.bakerysStoreChild7} />
+            <Footer />
             <b className={styles.allRightsAre}>
                 All rights are reserved by @BakeryStore
             </b>
             <div className={styles.rectangleParent6}>
-                <div className={styles.groupChild7} />
+                <Header />
                 <div className={styles.groupParent}>
                     <div className={styles.homeParent}>
                         <div className={styles.home}>Home</div>
